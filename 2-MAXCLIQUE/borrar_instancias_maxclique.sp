@@ -1,0 +1,7 @@
+ DELETE FROM nodos;
+ DELETE FROM arcos; 
+ DELETE FROM grafo;
+
+ INSERT INTO nodos SELECT * FROM nodos9;
+ INSERT INTO arcos SELECT * FROM arcos9;
+ INSERT INTO grafo SELECT * FROM grafo9;
